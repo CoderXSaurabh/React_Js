@@ -1,14 +1,18 @@
 // import "./styles.css";
 import React from "react";
+import state4 from "./state/state4";
 // import defProps1 from "./props/defProps1";
 // import state1 from "./state/state1";
-import state2 from "./state/state2";
+// import state2 from "./state/state2";
+// import state3 from "./state/state3";
 export default function App() {
   return (
     <>
       {/* <defProps1 name="saurabh"/> */}
       {/* <state1/> */}
-      <state2/>
+      {/* <state2/> */}
+      {/* <state3/> */}
+      <state4/>
     </>
   );
 }

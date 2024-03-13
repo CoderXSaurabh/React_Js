@@ -15,8 +15,10 @@ export default class state2 extends Component {
   }
 
     render() {
-    return (
+        
+        return (
       <div>
+        
         <h1>this.state</h1>
         <button onClick={this.changeHandler}>click here to subscribe</button>
       </div>
