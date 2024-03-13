@@ -1,12 +1,56 @@
-import React from "react";
-import { ReactDOM } from "react";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-let element = React.createElement("h1",
-{id:"head"},"HELLO WORLD",
-React.createElement("h2",{className:"head"},"Heading two"),
-React.createElement("button",null)
-)
-ReactDOM.render(element,document.getElementById("root"))
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// // import './index.css';
+// import App from './App';
+// import Home from './Home';
+// // import reportWebVitals from './reportWebVitals';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <h1>Hello from index.jsx</h1>
+//     <App />
+//     <Home/>
+//   </React.StrictMode>
+// );
+
+
+// import React from "react";
+// import { ReactDOM } from "react";
+// import App from "./App";
+// // import props3 from "./props"
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <h1>Hello from index.jsx</h1>
+//     <App />
+//     {/* <Home/> */}
+//   </React.StrictMode>
+// );
+
+
+
+// let element = React.createElement("h1",
+// {id:"head"},"HELLO WORLD",
+// React.createElement("h2",{className:"head"},"Heading two"),
+// React.createElement("button",null)
+// )
+// ReactDOM.render(element,document.getElementById("root"))
 
 
 
