@@ -5,13 +5,13 @@ class ClassBind extends Component {
     super(props)
   
     this.state = {
-       message:"Hello"
+       message:"Hello Brother"
     }
     // this.changeMessage=this.changeMessage.bind(this) //3rd
   }
   changeMessage(){
         this.setState({
-            message:"goodBye"
+            message:"Bas ki kiti bolashil...."
         })
         console.log(this);
         console.log("hey");
