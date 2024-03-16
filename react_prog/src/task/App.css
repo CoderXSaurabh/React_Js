@@ -4,42 +4,59 @@
     background-color:antiquewhite;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
-
+    /* background-image: url("https://wallpaperaccess.com/full/712410.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
 }
 .cards{
     /* background-color: black; */
     height: 100vh;
     width: 100%;
     border: 1px solid transparent;
-    background-color: skyblue;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
 }
 .card{
-    height: 400px;
+    height: 450px;
     width: 260px;
     border: 1px solid transparent;
     background-color: aqua;
     padding: 20px ,20px;
-    border-radius: 20px;
-    margin: 20px;
+    /* border-radius: 20px; */
+    margin: 20px auto;
     box-shadow: 50px,7px,10px gray;
     transition: 0.5s;
     border-top-right-radius: 0px;
+    border-radius: 30px 0px 30px 0px;
 
 
 }
-.cards:hover{
-    border-top-right-radius: 20px;
 
+.card:hover{
+    border-radius: 0px 30px 0px 30px;
+
+}
+.card-body{
+    background-color: transparent;
+    /* height: 30px; */
+}
+.card-categary{
+    background-color: transparent;
 }
 img{
-    width: 100%;
+    margin: 10px auto;
+    margin-left: 10%;
+    width: 80%;
     height: 250px;
+    /* border: 1px solid; */
+    box-shadow: 10px 10px 10px black;
 
 }
 .card-body{
@@ -51,6 +68,21 @@ img{
     margin-top: 10px;
 }
 button{
-    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
     padding: 20px 40px;
+    border: 1px solid gray;
+    border-radius: 10px 0px 10px;
+    background-image: linear-gradient(to right, red, yellow);
+    transition-property: background-image;
+    transition-duration: 5s;
+    
+    
+}
+a{
+    background-color: transparent;
+}
+button:hover{
+    
+    background-image: linear-gradient(to left, yellow, black);
 }
