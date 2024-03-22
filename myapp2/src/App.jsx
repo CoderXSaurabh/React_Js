@@ -8,6 +8,7 @@
 
 // import FunctionalClick from "./event/FunctionalClick";
 // import ClassClick from "./event/ClassClick"; 
+import RegForm from "./Project/RegForm";
 import ClassBind from "./event/ClassBind";
 // const App=()=>{
 //     <h1>hello compo!!</h1>
@@ -28,7 +29,8 @@ const App=()=>{
        {/* <State4/> */}
         {/* <FunctionalClick/> */}
         {/* <ClassClick/> */}
-        <ClassBind/>
+        {/* <ClassBind/> */}
+        <RegForm/>
        </>
     )
 }

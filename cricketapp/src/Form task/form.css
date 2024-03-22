@@ -1,0 +1,91 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#back{
+	height: 120vh;
+	width: 100%;
+	background-color:rgb(3, 106, 106);
+    display:flex;
+    flex-direction: column;
+}
+h2{
+   font-size:80px;
+   color:blanchedalmond;
+   margin:10px 300px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parent {
+	height: 400px;
+	width: 350px;
+	border: 1px solid transparent;
+	margin:0px auto 20px;
+	background-color:lightskyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+	color:black;
+    font-size: 18px;
+	border-radius:30px;
+	/* border:none; */
+	box-shadow:5px 5px 5px grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+input[type="text"]{
+	margin: 10px; padding : 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	color:black;
+    border:none;
+	border-bottom:2px solid black;
+	background-color:lightskyblue;
+    outline: none;
+}
+input[type="email"]{
+	margin: 10px; padding : 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	color:black;
+    border:none;
+	border-bottom:2px solid black;
+	background-color:lightskyblue;
+    outline: none;
+}
+input[type="number"]{
+	margin: 10px; padding : 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+    border:none;
+	color:black;
+	border-bottom:2px solid black;
+	background-color:lightskyblue;
+    outline: none;
+}
+input[type="password"]{
+	margin: 10px; padding : 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	color:black;
+    /* outline: none; */
+    border:none;
+	border-bottom:2px solid black;
+	background-color:lightskyblue;
+    outline: none;
+}
+
+input[type="submit"] {
+	width: 100px;
+	height: 50px; margin : 20px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	color:white;
+	background-image:linear-gradient(to right,pink, blue);
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border:1px solid transparent;
+    margin:10px 100px;
+}
