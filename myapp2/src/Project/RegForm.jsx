@@ -3,6 +3,7 @@ import "./Form.css"
 import User from "./Assest/userjpeg.jpeg"
 import Email from "./Assest/email.png"
 import pass from "./Assest/password.png"
+import forgot from './forgot'
 export default class RegForm extends Component {
     constructor(props) {
       super(props)
@@ -32,6 +33,10 @@ export default class RegForm extends Component {
                             <img src={pass} alt="" />
                             <input type="password" class="fields" name='' id='' placeholder='Enter Password'/>
                         </div>
+                        <div className="pass">Forgot password : <span>
+                            <a href= {<forgot />}>Click Here</a>
+                            {/* <Link to={{ pathname: '/forgot', state: { reference: this.state.reference } }} onClick={this.handleForgotClick}>Click Here</Link> */}
+                            </span></div>
                         <div className="button">
                             <div className={this.state.action==="LOGIN"?"grey":"sign-up"} onClick={()=>{ this.setState({action:"SIGN-UP"}) }}>Sign Up</div>
                             <div className={this.state.action==="SIGN-UP"?"grey":"log"} onClick={()=>{this.setState({action:"LOGIN"})}}>LogIn</div>

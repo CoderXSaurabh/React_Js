@@ -25,6 +25,15 @@ input{
     width: 200px;
     margin-left: 30px;
 }
+.pass{
+    height: 40px;
+    width: 200px;
+    margin-left: 150px;
+}
+span{
+    color: blue;
+    
+}
 .text{
     font-size: 30px ;
     text-align: center;
