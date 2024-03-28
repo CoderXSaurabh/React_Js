@@ -2,7 +2,9 @@
 // import React from "react";
 // import state4 from "./state/state4";
 // import Ref4 from "./Refs/Ref4";
-import Ref5 from "./Refs/Ref5";
+// import Ref5 from "./Refs/Ref5";
+import ParentComp from "./PureCompo/ParentComp";
+import ParentRef from "./Refs/ParentRef";
 import "./Refs/style.css"
 // import defProps1 from "./props/defProps1";
 // import state1 from "./state/state1";
@@ -23,7 +25,9 @@ export default function App() {
       {/* <Ref2/> */}
       {/* <Ref3/> */}
       {/* <Ref4/> */}
-      <Ref5/>
+      {/* <Ref5/> */}
+      {/* <ParentRef/> */}
+      <ParentComp/>
     </>
   );
 }

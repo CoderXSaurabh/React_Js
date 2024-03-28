@@ -1,0 +1,12 @@
+Primitive type shallow complexity
+let str1 = "Hello"
+let str2 = "Hello"
+clg(str1===str2) //true
+
+complex type ->
+let a = [1,2,3]  //having address @100
+let b = [1,2,3]  //having address @200
+let c = a        //having address @100
+
+clg(a===b) //false 
+clg(a===c) //true

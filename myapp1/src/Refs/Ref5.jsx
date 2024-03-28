@@ -25,7 +25,7 @@ export default class Ref5 extends Component {
   }
 
   clickHandler = () => {
-    const inputValue = this.input.current.value.toLowerCase();
+    const inputValue = this.input.current.value;
     const { img1, img2 , img3 ,img4,img5} = this.state;
     this.createEle.current.style.height="300px"
     this.createEle.current.style.width="400px"
@@ -51,10 +51,18 @@ export default class Ref5 extends Component {
     const { currentImg } = this.state;
     return (
       <React.StrictMode>
-        <div className='inputTag'>
-        <input type="text" className='inp' id='' name='' ref={this.input} />
+      <div id='main'>
+      <div className='inputTag'>
+        {/* <label for="cars">Choose a car:</label> */}
+        <select name="cars" id="cars" ref={this.input}>
+          <option value="supra" >Supra</option>
+          <option value="audi" >Audi</option>
+          <option value="kia" >Kia</option>
+          <option value="thar" >Thar</option>
+          <option value="creta" >Creta</option>
+        </select>
         </div>
-        <div
+      <div
           className='Box'
           ref={this.createEle}
           style={{
@@ -70,6 +78,7 @@ export default class Ref5 extends Component {
 
         <div className='btn'>
         <button onClick={this.clickHandler}>Click Here...</button></div>
+        </div>
       </React.StrictMode>
     );
   }
