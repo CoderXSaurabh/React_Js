@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+input{
+    border: transparent;
+    height: 40px;
+    margin: 5px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+#main{
+    margin-top: 20px;
+    background:linear-gradient(45deg,yellow,purple);
+    height: 500px;
+    width: 500px;
+    margin-left: 35%;    
+    padding-top: 20px;
+}
+.inputTag{
+    margin-left: 28%;
+    height: 50px;
+    width: 220px;
+    /* border: 1px solid red; */
+    
+}
+.box{
+    margin: 30px auto;
+
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    margin-left: 45%;
+}
+#cars{
+    height: 50px;width: 250px;
+    text-align: center;
+    font-size: 20px;   
+    box-shadow: 10px 10px 10px gray;
+    background-color: violet;
+    color: black;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+.btn{
+    background-color: transparent;
+}

@@ -3,6 +3,7 @@
 // import state4 from "./state/state4";
 // import Ref4 from "./Refs/Ref4";
 // import Ref5 from "./Refs/Ref5";
+import ParentMomo from "./Memo/ParentMomo";
 import ParentComp from "./PureCompo/ParentComp";
 import ParentRef from "./Refs/ParentRef";
 import "./Refs/style.css"
@@ -27,7 +28,8 @@ export default function App() {
       {/* <Ref4/> */}
       {/* <Ref5/> */}
       {/* <ParentRef/> */}
-      <ParentComp/>
+      {/* <ParentComp/> */}
+      <ParentMomo/>
     </>
   );
 }
