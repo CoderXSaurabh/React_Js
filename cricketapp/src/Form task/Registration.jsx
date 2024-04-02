@@ -5,7 +5,7 @@ export class Registration extends Component {
     return (
       <>
       <div id="back">
-        <h2>Registration Form</h2>
+        <h2 id='reg'>Registration Form</h2>
       <div className='parent'>
           <form>
             <table>
